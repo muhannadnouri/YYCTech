@@ -1,2 +1,0 @@
-# YYCTech
-Created with CodeSandbox
