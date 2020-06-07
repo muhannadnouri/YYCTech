@@ -1,7 +1,10 @@
-# YYCTech
+## YYCTech
 Created with CodeSandbox
 
-# To Do
+## Deployment
+Site is deployed at https://yyctech.netlify.app/
+
+## To Do
 - [ ] Fix table search in the Netlify production build
 - [ ] Add sorting functionality in the Table component
 - [ ] Add background image of Calgary
