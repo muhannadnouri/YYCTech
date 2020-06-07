@@ -1,4 +1,4 @@
-// TODO: Convert this into "YYCDataSource", create speerate JSON for each Canadian city
+// TODO: Convert this into "YYCDataSource", create separate JSON for each Canadian city
 const dataSource = [
   {
     key: "1",
