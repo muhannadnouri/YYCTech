@@ -219,7 +219,7 @@ const dataSource = [
   },
   {
     key: "32",
-    name: "GasBuddy",
+    name: "Aveva",
     city: "Calgary",
     province: "AB",
     industry: "Placeholder"
@@ -415,7 +415,7 @@ const dataSource = [
   },
   {
     key: "62",
-    name: "Lodge Link (Black Diamond Group)",
+    name: "LodgeLink (Black Diamond Group)",
     city: "Calgary",
     province: "AB",
     industry: "Placeholder"
