@@ -18,9 +18,6 @@ export default function DataTable(props) {
     }) => (
       <div style={{ padding: 8 }}>
         <Input
-          ref={node => {
-            this.searchInput = node;
-          }}
           placeholder={`Search ${dataIndex}`}
           value={selectedKeys[0]}
           onChange={e =>
@@ -57,11 +54,6 @@ export default function DataTable(props) {
         .toString()
         .toLowerCase()
         .includes(value.toLowerCase()),
-    onFilterDropdownVisibleChange: visible => {
-      if (visible) {
-        setTimeout(() => this.searchInput.select());
-      }
-    },
     render: text =>
       searchedColumn === dataIndex ? (
         <Highlighter
