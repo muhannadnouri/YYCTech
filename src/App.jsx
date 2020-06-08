@@ -12,10 +12,8 @@ import DataTable from "./DataTable";
 
 export default function App() {
   const [current, setCurrent] = useState("about");
-  // onst [theme, setTheme] = useState("dark");
 
   const handleClick = e => {
-    // console.log("Click ", e);
     setCurrent(e.key);
   };
 
