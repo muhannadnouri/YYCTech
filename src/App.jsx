@@ -2,7 +2,11 @@ import React, { useState } from "react";
 import "./styles.css";
 import "antd/dist/antd.css";
 import { Menu } from "antd";
-import { MailOutlined, AppstoreOutlined } from "@ant-design/icons";
+import {
+  MailOutlined,
+  AppstoreOutlined,
+  InfoCircleOutlined
+} from "@ant-design/icons";
 
 import DataTable from "./DataTable";
 
@@ -26,10 +30,10 @@ export default function App() {
         <Menu.Item key="home" icon={<AppstoreOutlined />}>
           Home
         </Menu.Item>
-        <Menu.Item key="about" icon={<MailOutlined />}>
+        <Menu.Item key="about" icon={<InfoCircleOutlined />}>
           About
         </Menu.Item>
-        <Menu.Item key="contact">
+        <Menu.Item key="contact" icon={<MailOutlined />}>
           <a
             href="https://muhannadnouri.com/contact/"
             target="_blank"
