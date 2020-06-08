@@ -106,8 +106,9 @@ export default function DataTable(props) {
   };
 
   return (
-    <>
+    /* https://stackoverflow.com/questions/13091433/center-child-divs-inside-parent-div */
+    <div style={{ display: "flex", justifyContent: "center" }}>
       <Table theme={props.theme} dataSource={dataSource} columns={columnList} />
-    </>
+    </div>
   );
 }
