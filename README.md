@@ -5,7 +5,7 @@ Created with CodeSandbox
 Site is deployed at https://yyctech.netlify.app/
 
 ## To Do
-- [ ] Fix table search in the Netlify production build
+- [x] Fix table search in the Netlify production build
 - [ ] Add sorting functionality in the Table component
 - [ ] Add background image of Calgary
 - [ ] Add footer with note
